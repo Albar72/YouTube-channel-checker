@@ -1,7 +1,7 @@
 // API Lo
-const apiKey = 'AIzaSyDJynlnzRgHXxt0qLakeDOKxdQVc7waS00';
+const apiKey = 'YOUR-API-KEY';
 // Ganti ini dengan ID channel yang mau lo cek infonya
-const channelId = 'UCkCa2NoZlJlfJlMKgZhtKOQ';
+const channelId = 'ID Channel';
 
 async function getChannelInfo() {
   const url = `https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=${channelId}&key=${apiKey}`;
